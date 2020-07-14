@@ -1,0 +1,45 @@
+{% block content %}
+
+<form class="card" method="POST" action="/products">
+
+    <section class="avatar" style="background: url(https://source.unsplash.com/collection/SYTO3xs06fU/500x500) no-repeat center center / cover"></section>
+
+    <section class="details">
+
+        <div class="item">
+            <div>Foto do produto</div>
+            <div>
+                <input type="url" name="avatar_url" placeholder="https://" value="{{ product.avatar_url }}">
+            </div>
+        </div>
+
+        <div class="item">
+            <div>Nome do Produto</div>
+            <div>
+                <input type="text" name="name" value="{{ product.name }}">
+            </div>
+        </div>
+
+        
+
+        <div class="item">
+            <div>Código do Produto</div>
+            <div>
+                <input type="text" name="cod" value="{{ product.cod }}">
+            </div>
+        </div>
+
+        <div class="item">
+            <div>Valor do Produto</div>
+            <div>
+                <input type="text" name="value" value="{{ product.value }}">
+            </div>
+        </div>
+
+        <button type="submit">Salvar</button>
+        
+    </section>
+</form>
+
+{% endblock content %}
+ 

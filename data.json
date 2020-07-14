@@ -1,0 +1,12 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "avatar_url": "https://cloudfront-us-east-1.images.arcpublishing.com/tbt/FYCBENY6BVF3NMKL2YCSOC3YAM.JPG",
+      "name": "Pedro",
+      "cod": "322",
+      "value": "50 Reais",
+      "created_at": 1594741230735
+    }
+  ]
+}
